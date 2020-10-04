@@ -6,8 +6,8 @@ function App() {
   return (  
         <Router>
         <Switch>
-          <Route exact  path="/" component={LandingPageComponent} />
-          <Redirect to="/" />
+          <Route exact  path="/landingpage6/" component={LandingPageComponent} />
+          <Redirect to="/landingpage6/" />
         </Switch>
         </Router>
   );
